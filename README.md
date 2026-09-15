@@ -1,10 +1,17 @@
-# AI Learning Archive
+# Blue Moon — AI Learning Archive
 
-dist/article.html을 브라우저에서 열면 시작합니다. style.css와 HTML 파일을 같은 폴더에 유지하세요.
+한국경제 AI 교육 개인 포트폴리오. 기사, 이미지, 영상, 파이널 프로젝트의 네 페이지로 구성합니다.
 
-- article.html: 기사와 펼쳐 읽기
-- image.html: 갤러리와 제작 아이디어
-- video.html: 영상 기획과 스토리보드
-- final.html: 최종 프로젝트 소개
+## 열기
+루트의 index.html 또는 dist/index.html을 엽니다. GitHub Pages가 master 브랜치의 루트를 제공할 때 루트 index.html이 dist/index.html로 연결합니다.
 
-각 HTML의 본문을 수정해 실제 자료로 교체할 수 있습니다. 이미지 임시 그래픽은 img 태그로, 영상 기획 영역은 video controls 태그 또는 영상 임베드로 교체하세요. 현재 서버 업로드·저장 기능은 없습니다. Pretendard 웹폰트를 jsDelivr에서 불러오며, 오프라인에서는 시스템 글꼴로 표시됩니다.
+## 내용 수정
+- dist/app.js: 메뉴, 기사 원고, 이미지 설명, 영상 스토리보드, 프로젝트 소개
+- dist/style.css: 반응형 디자인
+- dist/assets/neighborhood-still-life.jpg: 이 포트폴리오를 위해 생성한 AI 정물 이미지
+
+현재 글은 예시 원고이며 이미지는 AI 생성 이미지입니다. 영상과 파이널 프로젝트는 기획안으로 표시합니다. 실제 작품을 받으면 해당 콘텐츠와 미디어로 교체할 수 있습니다.
+
+## 미리보기
+Node.js가 설치되어 있으면 node preview.cjs를 실행한 후 http://127.0.0.1:4173 으로 접속합니다.
+
