@@ -12,7 +12,7 @@ const gallery=`<div class="section-label"><b>02 / SELECTED VISUALS</b><span>하�
 const videoNames=['우리 동네, 30초의 발견','가게 문이 열리기 전','골목의 색을 모으다'];
 const videos=`<div class="section-label"><b>03 / MOTION NOTEBOOK</b><span>기획 · 스토리보드</span></div><section class="cinema"><div class="screen"><small>LOCAL STORIES / FILM CONCEPT</small><h2>A little closer.<br>A new story.</h2><small>00:00 — 00:30 / 16:9</small><div class="timeline"><span></span><span></span><span></span></div></div><div class="cinema-copy"><span class="tag">영상 기획안</span><h2>우리 동네,<br>30초의 발견</h2><p>익숙한 골목에서 시작해 작은 가게의 디테일로 다가가는 짧은 영상. 넓은 풍경과 가까운 장면의 리듬을 설계했습니다.</p><button class="pill" data-video="0">스토리보드 보기 ↗</button></div></section>${videoNames.slice(1).map((t,i)=>`<article class="video-row"><span class="number">0${i+2}</span><div><h3>${t}</h3><p>${i?'색채 에세이 · 20초 구성안':'관찰 다큐멘터리 · 30초 구성안'}</p></div><button class="text-link" data-video="${i+1}">기획 보기 ↗</button></article>`).join('')}<p class="notice">영상 파일은 아직 등록되지 않았습니다. 현재는 장면 구성과 제작 방향을 볼 수 있습니다.</p>`;
 const final=`<div class="section-label"><b>04 / CAPSTONE PROJECT</b><span>LOCAL STORIES, NEW PERSPECTIVES</span></div><section class="project"><div class="project-copy"><span class="tag">파이널 프로젝트 · 기획안</span><h2>우리 동네의<br>다음 페이지</h2><p>스쳐 지나가던 공간을 다시 발견하는 로컬 콘텐츠 아카이브. 하나의 장소가 가진 이야기를 글로 읽고, 이미지로 느끼고, 영상으로 따라갑니다.</p><div class="project-stats"><div><strong>01</strong>기획 기사 목표</div><div><strong>03</strong>키 비주얼 목표</div><div><strong>30s</strong>소개 영상 목표</div></div><a class="pill" href="#process">프로젝트 과정 보기 ↓</a></div>${cover()}</section><div class="section-label" id="process"><b>THE PROCESS</b><span>발견 → 표현 → 연결</span></div><section class="process"><article><span class="number">01.</span><h3>장소와 질문 정하기</h3><p>소개하고 싶은 공간을 선정하고 관찰 메모, 취재 질문, 독자에게 전할 핵심 메시지를 정리합니다.</p></article><article><span class="number">02.</span><h3>세 가지 언어로 만들기</h3><p>기사의 중심 장면을 이미지의 구도와 색감, 영상의 스토리보드로 확장합니다. 실제 기록과 AI 창작물을 구분합니다.</p></article><article><span class="number">03.</span><h3>확인하고 연결하기</h3><p>사실과 공개 범위를 확인하고, 매체마다 다른 장점을 살려 하나의 이야기로 엮습니다.</p></article></section><section class="band"><div><span class="eyebrow">PROJECT ARCHIVE</span><h3>하나의 주제, 이어지는 작업들.</h3><p>예시 원고와 이미지 실험, 영상 기획을 살펴보세요.</p></div><div class="outputs"><a class="pill" href="article.html">기사 ↗</a><a class="pill" href="image.html">이미지 ↗</a><a class="pill" href="video.html">영상 ↗</a></div></section>`;
-const introduce=`<div class="section-label"><b>ABOUT ME</b><span>나를 소개합니다</span></div><section class="about-profile"><div class="about-name"><span class="eyebrow">PERSONAL RECORD</span><div class="about-monogram" aria-hidden="true">BM</div><h2>Blue Moon</h2><p>한국경제 AI 교육<br>개인 학습 포트폴리오</p></div><div class="about-copy"><span class="tag">INTRODUCTION</span><h2>나의 이야기를<br>차근차근 담아갑니다.</h2><p>기사, 이미지, 영상, 파이널 프로젝트를 통해 배움과 작업을 기록합니다. 이 페이지에는 저의 배경과 관심사, 앞으로의 목표를 소개할 예정입니다.</p><div class="about-draft"><span class="eyebrow">자기소개 · 작성 예정</span><p>이름 또는 활동명, 지금 하는 일, 이 포트폴리오를 시작한 이유를 소개해 주세요.</p></div><a class="pill" href="article.html">작업 기록 둘러보기 ↗</a></div></section><div class="section-label"><b>MY STORY</b><span>관심사와 경험, 앞으로의 방향</span></div><section class="process"><article><span class="number">01.</span><h3>관심 있는 분야</h3><p>탐구하고 싶은 주제와 좋아하는 작업을 소개할 공간입니다.</p><span class="meta">작성 예정</span></article><article><span class="number">02.</span><h3>지금까지의 경험</h3><p>이전 활동, 배운 점, 기억에 남는 경험을 정리할 공간입니다.</p><span class="meta">작성 예정</span></article><article><span class="number">03.</span><h3>앞으로의 목표</h3><p>배우고 싶은 것과 앞으로 만들어 보고 싶은 작업을 적을 공간입니다.</p><span class="meta">작성 예정</span></article></section>`;
+const introduce=`<div class="section-label"><b>ABOUT ME</b><span>나를 소개합니다</span></div><section class="about-profile"><div class="about-name"><span class="eyebrow">PERSONAL RECORD</span><div class="about-monogram" aria-hidden="true">BM</div><h2>Blue Moon</h2><p>한국경제 AI 교육<br>개인 학습 포트폴리오</p></div><div class="about-copy"><span class="tag">INTRODUCTION</span><h2>나의 이야기를<br>차근차근 담아갑니다.</h2><p>기사, 이미지, 영상, 파이널 프로젝트를 통해 배움과 작업을 기록합니다. 이 페이지에는 저의 배경과 관심사, 앞으로의 목표를 소개할 예정입니다.</p><div class="about-draft"><span class="eyebrow">자기소개 · 작성 예정</span><p>이름 또는 활동명, 지금 하는 일, 이 포트폴리오를 시작한 이유를 소개해 주세요.</p></div><a class="pill" href="article.html">작업 기록 둘러보기 ↗</a></div></section><div class="section-label"><b>MY STORY</b><span>관심사와 경험, 앞으로의 방향</span></div><section class="process"><article><span class="number">01.</span><h3>관심 있는 분야</h3><p>탐구하고 싶은 주제와 좋아하는 작업을 소개할 공간입니다.</p><span class="meta">작성 예정</span></article><article><span class="number">02.</span><h3>지금까지의 경험</h3><p>이전 활동, 배운 점, 기억에 남는 경험을 정리할 공간입니다.</p><span class="meta">작성 예정</span></article><article><span class="number">03.</span><h3>앞으로의 목표</h3><p>배우고 싶은 것과 앞으로 만들어 보고 싶은 작업을 적을 공간입니다.</p><span class="meta">작성 예정</span></article></section><section class="about-creations" aria-labelledby="creations-title"><h2 id="creations-title">제가 만드는 것들</h2><p>기사, 이미지, 영상, 파이널 프로젝트에 배움과 아이디어를 담습니다.</p><a class="youtube-button" href="https://www.youtube.com/results?search_query=%ED%95%98%EC%99%80%EC%9D%B4%EB%8C%80%EC%A0%80%ED%83%9D">내가 제일 좋아하는 유튜브 채널</a></section>`;
 const t=titles[page]||titles.article;
 document.querySelector('#app').innerHTML=`<a class="skip" href="#main">본문으로 이동</a><div class="shell"><header><a class="brand" href="index.html">Blue Moon<small>AI LEARNING ARCHIVE</small></a><nav aria-label="주 메뉴">${nav.map(([id,label])=>`<a href="${id}.html" ${id===page?'aria-current="page"':''}>${label}</a>`).join('')}</nav><span class="edition">PORTFOLIO / 2026</span></header><main id="main"><section class="intro"><span class="eyebrow">한국경제 AI 교육 · PERSONAL PORTFOLIO</span><div class="title-row"><h1>${t[0]} <em>${t[1]}</em></h1><div class="seal">Little things,<br>new stories.<small>BLUE MOON</small></div></div><div class="intro-bottom"><p><strong>${t[2]}</strong><br>${t[3]}</p><small>COLLECTION / ${page==='introduce'?'ABOUT ME':'0'+nav.findIndex(n=>n[0]===page)}</small></div></section>${({introduce,article:journal,image:gallery,video:videos,final})[page]||journal}${page==='introduce'?'':`<p class="notice">학습 포트폴리오 시안 · 글은 예시 원고, 이미지는 AI 생성 및 색감 변형, 영상과 파이널 프로젝트는 기획안입니다.</p>`}</main><footer class="footer"><div class="footer-top"><div class="footer-title">Look closer.<br>Make something.</div><div><p>작은 발견에서 시작하는 나만의 기록.<br>한국경제 AI 교육 · 개인 학습 포트폴리오</p><a href="#main">맨 위로 ↑</a></div></div><div class="footer-bottom"><span>© 2026 Blue Moon. Learning in progress.</span><span>PROM RECORD · 기사 · 이미지 · 영상 · 파이널 프로젝트</span></div></footer></div><dialog id="detail" aria-labelledby="detail-title"><button class="close" aria-label="닫기">×</button><div id="detail-content"></div></dialog>`;
 const dialog=document.querySelector('#detail'),content=document.querySelector('#detail-content');
@@ -25,3 +25,106 @@ const scenes=[[['00–08초 · 발견','골목의 넓은 풍경을 고정된 화
 document.querySelectorAll('[data-video]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.video);show(videoNames[i],'<span class="tag">스토리보드 · 기획 단계</span>'+scenes[i].map(([title,p])=>`<section class="storyboard"><b>${title}</b><p>${p}</p></section>`).join('')+'<p class="meta">촬영·편집 전의 기획안으로, 재생 가능한 영상은 아직 없습니다.</p>')});
 
 
+
+// Original, quiet ambient accompaniment shared by all portfolio pages.
+(() => {
+  const AudioEngine = window.AudioContext || window.webkitAudioContext;
+  if (!AudioEngine) return;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'music-toggle';
+  button.setAttribute('aria-pressed', 'false');
+  button.textContent = '♪ 음악 켜기';
+  button.title = '잔잔한 배경음악 켜기·끄기';
+  document.querySelector('header').append(button);
+  let context, master, timer, nextTime = 0, bar = 0, busy = false;
+  let enabled = true;
+  try { enabled = localStorage.getItem('blue-moon-music') !== 'off'; } catch {}
+  const chords = [[48,55,60,64],[45,52,57,60],[41,48,53,57],[43,50,55,59]];
+  function render() {
+    const playing = context?.state === 'running' && enabled;
+    button.textContent = playing ? '♪ 음악 끄기' : '♪ 음악 켜기';
+    button.setAttribute('aria-pressed', String(playing));
+  }
+  function tone(midi, at, length, level) {
+    const oscillator = context.createOscillator();
+    const envelope = context.createGain();
+    oscillator.type = 'sine';
+    oscillator.frequency.value = 440 * 2 ** ((midi - 69) / 12);
+    envelope.gain.setValueAtTime(0, at);
+    envelope.gain.linearRampToValueAtTime(level, at + 0.6);
+    envelope.gain.exponentialRampToValueAtTime(0.0001, at + length);
+    oscillator.connect(envelope).connect(master);
+    oscillator.start(at);
+    oscillator.stop(at + length + 0.1);
+    oscillator.onended = () => { oscillator.disconnect(); envelope.disconnect(); };
+  }
+  function schedule() {
+    if (context.state !== 'running' || !enabled) return;
+    while (nextTime < context.currentTime + 0.4) {
+      const chord = chords[bar % chords.length];
+      chord.forEach((note, i) => tone(note, nextTime + i * 0.12, 7, 0.12));
+      [0,2,1,3].forEach((index, i) => tone(chord[index] + 12, nextTime + i * 1.5, 3.6, 0.065));
+      nextTime += 6;
+      bar++;
+    }
+  }
+  async function start() {
+    if (!enabled || busy) return;
+    busy = true;
+    try {
+      if (!context) {
+        context = new AudioEngine();
+        master = context.createGain();
+        master.gain.value = 0.14;
+        master.connect(context.destination);
+        context.onstatechange = render;
+      }
+      await context.resume();
+      if (context.state === 'running') {
+        if (!timer) {
+          nextTime = context.currentTime + 0.1;
+          schedule();
+          timer = setInterval(schedule, 200);
+        }
+      }
+    } catch { /* The visible control remains available if autoplay is blocked. */ }
+    finally { busy = false; render(); }
+  }
+  button.addEventListener('click', async () => {
+    if (enabled && context?.state === 'running') {
+      enabled = false;
+      try { localStorage.setItem('blue-moon-music', 'off'); } catch {}
+      await context.suspend();
+      render();
+    } else {
+      enabled = true;
+      try { localStorage.setItem('blue-moon-music', 'on'); } catch {}
+      await start();
+    }
+  });
+  const unlock = event => {
+    if (event.target.closest?.('.music-toggle')) return;
+    if (enabled) start();
+  };
+  document.addEventListener('click', unlock);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') unlock(event);
+  });
+  window.addEventListener('pagehide', () => {
+    if (timer) clearInterval(timer);
+    timer = null;
+    context?.suspend().catch(() => {});
+  });
+  window.addEventListener('pageshow', () => { if (enabled && context?.state === 'running') start(); });
+  render();
+  // Do not wait on a blocked autoplay promise: the first user gesture unlocks audio.
+  if (enabled) {
+    context = new AudioEngine();
+    master = context.createGain();
+    master.gain.value = 0.14;
+    master.connect(context.destination);
+    context.onstatechange = render;
+    if (context.state === 'running') start();
+  }
+})();

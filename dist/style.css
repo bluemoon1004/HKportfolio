@@ -11,3 +11,6 @@ header{flex-wrap:wrap}nav{flex-wrap:wrap;max-width:100%}
 body[data-page="introduce"] h1{font-size:clamp(42px,7vw,96px);letter-spacing:-2px}
 @media(max-width:700px){nav{justify-content:flex-start;border-radius:18px}.about-profile{grid-template-columns:1fr}.about-name,.about-copy{padding:26px}.about-monogram{margin:18px 0}.about-copy h2{font-size:28px}body[data-page="introduce"] .seal{display:none}}
 
+
+.about-creations{border-top:1px solid var(--line);padding:28px 0 40px}.youtube-button{display:inline-flex;align-items:center;justify-content:center;background:#c71920;color:#fff;border:2px solid #c71920;border-radius:12px;padding:14px 22px;font-size:16px;font-weight:700;line-height:1.6;text-align:center;max-width:100%;text-decoration:none}.youtube-button:hover{background:#a61017;border-color:#a61017}.youtube-button:focus-visible{outline:3px solid var(--blue);outline-offset:5px}
+.music-toggle{flex-shrink:0;border:1px solid var(--blue);border-radius:24px;padding:9px 15px;background:transparent;color:var(--blue);font-size:14px;line-height:1.5;cursor:pointer}.music-toggle[aria-pressed="true"]{background:var(--blue);color:white}.music-toggle:hover{box-shadow:0 0 0 2px var(--sky)}
